@@ -1,6 +1,6 @@
  function getWeather(lat, lon) {
    $.ajax({
-     url: "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=2ca252d74a373acc1b59fe6e45e5d3ae",
+     url: "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=2ca252d74a373acc1b59fe6e45e5d3ae",
      dataType: "jsonp",
      success: function(data) {
        // get all the information
