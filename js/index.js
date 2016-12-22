@@ -14,7 +14,7 @@
        var celsius = ((fahrenheit - 32) * 5 / 9).toFixed(2); // Who in the name of all that is holy uses Fahrenheit? 
        console.log(celsius); // Wh
        $("#tempC").html(celsius + "&deg;C");
-       $("#locationName").html(locationName.substring(splice+1));
+       $("#locationName").html(locationName.substring(splice+1).replace("_", " "));
        $("#tempF").html(fahrenheit + "&deg;F").hide();
 
        $("#toggle").click(function() {
