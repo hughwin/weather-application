@@ -24,7 +24,7 @@
        var icons = new Skycons({
          "color": "white"
        });
-       icons.set("icon", "rain");
+       icons.set("icon", icon);
        icons.play();
 
        //Alters all of the elements to display the information to the user. 
